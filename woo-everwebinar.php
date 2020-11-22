@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WooCommerce EverWebinar
  * Description: Sell access to your webinars with WooCommerce.
- * Version: 0.1
+ * Version: 0.1.1
  * Author: Mikhail Durnev
  * Author URI: https://mikhailroot.ru
  * Copyright: (c) 2020 Mikhail Durnev (email : mikhailD.101@gmail.com; skype: mikhail.root)
@@ -29,5 +29,4 @@ require_once __DIR__ . '/includes/wp-everwebinar-api.php';
 require_once __DIR__ . '/includes/utilities.php';
 require_once __DIR__ . '/includes/shortcodes.php';
 
-$admin            = new Product_Admin();
-$order_processing = new Order_Processing();
+Plugin::get_instance();

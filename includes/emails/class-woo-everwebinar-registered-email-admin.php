@@ -212,7 +212,7 @@ class Woo_EverWebinar_Registered_Email_Admin extends WYSIWYG_Email {
 				'email'              => $this,
 			),
 			'woocommerce/',
-			$this->template_base,
+			$this->template_base
 		);
 	}
 
@@ -234,7 +234,7 @@ class Woo_EverWebinar_Registered_Email_Admin extends WYSIWYG_Email {
 				'email'              => $this,
 			),
 			'woocommerce/',
-			$this->template_base,
+			$this->template_base
 		);
 	}
 

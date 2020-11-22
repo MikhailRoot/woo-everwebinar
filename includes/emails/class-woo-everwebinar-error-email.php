@@ -234,7 +234,7 @@ class Woo_EverWebinar_Error_Email extends WYSIWYG_Email {
 				'email'         => $this,
 			),
 			'woocommerce/',
-			$this->template_base,
+			$this->template_base
 		);
 	}
 
@@ -255,7 +255,7 @@ class Woo_EverWebinar_Error_Email extends WYSIWYG_Email {
 				'email'         => $this,
 			),
 			'woocommerce/',
-			$this->template_base,
+			$this->template_base
 		);
 	}
 
